@@ -33,3 +33,4 @@ AeroVision is a Machine Learning–powered system that predicts wildfire-prone a
 cd backend
 pip install -r requirements.txt
 python app.py
+
