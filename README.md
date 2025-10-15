@@ -1,4 +1,4 @@
-# 🔥 AeroVision: Wildfire Prediction & Monitoring System
+#  AeroVision: aircraft Prediction System
 
 AeroVision is a Machine Learning–powered system that predicts wildfire-prone areas using satellite imagery and environmental data.
 
@@ -7,8 +7,7 @@ AeroVision is a Machine Learning–powered system that predicts wildfire-prone a
 ## 🚀 Tech Stack
 - **Frontend:** React, Tailwind CSS  
 - **Backend:** Flask (Python)  
-- **Machine Learning:** XGBoost / CNN  
-- **Database:** SQLite / MySQL  
+- **Machine Learning:** Numpy pandas   
 - **Tools:** Jupyter Notebook, Git, Postman
 
 ---
@@ -33,4 +32,5 @@ AeroVision is a Machine Learning–powered system that predicts wildfire-prone a
 cd backend
 pip install -r requirements.txt
 python app.py
+
 
