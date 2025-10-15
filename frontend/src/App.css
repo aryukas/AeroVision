@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Upload Page  */
+/* Upload Page Background */
+.upload-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px); /* Adjust for navbar */
+  background: linear-gradient(135deg, #e0f7fa, #bae6fd);
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Upload Card */
+.upload-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.upload-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.upload-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+/* Upload Icon */
+.upload-icon {
+  font-size: 3rem;
+  color: #3b82f6;
+  margin-bottom: 1rem;
+}
+
+/* File Input */
+.file-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px dashed #93c5fd;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.file-input:hover {
+  border-color: #2563eb;
+}
+
+/* Upload Button */
+.upload-btn {
+  width: 100%;
+  padding: 0.7rem;
+  background: linear-gradient(45deg, #3b82f6, #60a5fa);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+  background: linear-gradient(45deg, #2563eb, #1e40af);
+  transform: scale(1.05);
+}
+
+/* Result Card */
+.result-card {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f0f9ff;
+  border-left: 4px solid #3b82f6;
+  border-radius: 0.5rem;
+  text-align: left;
+  animation: fade-in 0.5s ease;
+}
+
+.result-icon {
+  color: #16a34a;
+  margin-right: 0.5rem;
+}
+
+.result-card p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  color: #1e3a8a;
+}
+
+/* Fade-in animation for results */
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .upload-card {
+    padding: 1.5rem;
+  }
+
+  .upload-title {
+    font-size: 1.2rem;
+  }
+
+  .upload-icon {
+    font-size: 2.5rem;
+  }
+}
