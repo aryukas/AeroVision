@@ -15,14 +15,16 @@ AeroVision is a Machine Learning–powered system that predicts wildfire-prone a
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page] <img width="1910" height="866" alt="Screenshot 2025-10-15 201503" src="https://github.com/user-attachments/assets/b892bf53-6067-4d0a-9137-cd2fe6e460c0" />
+Home Page <img width="1910" height="866" alt="Screenshot 2025-10-15 201503" src="https://github.com/user-attachments/assets/b892bf53-6067-4d0a-9137-cd2fe6e460c0" />
 
 
 ### 🌍 Upload Image Page
-![Upload Page](images/upload.png)
+Image Upload Page<img width="1914" height="877" alt="Screenshot 2025-10-15 201532" src="https://github.com/user-attachments/assets/97fd4233-3927-48f2-9d3c-58cf74500aa2" />
+
 
 ### 🔥 Prediction Result
-![Result Page](images/result.png)
+Result Page 
+<img width="1917" height="871" alt="Screenshot 2025-10-15 201559" src="https://github.com/user-attachments/assets/df668431-8337-423a-8291-92926db4d038" />
 
 ---
 
@@ -33,6 +35,7 @@ AeroVision is a Machine Learning–powered system that predicts wildfire-prone a
 cd backend
 pip install -r requirements.txt
 python app.py
+
 
 
 
