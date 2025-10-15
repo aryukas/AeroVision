@@ -1,15 +1,47 @@
 #  AeroVision: aircraft Prediction System
 
-AeroVision is a Machine Learning–powered system that predicts wildfire-prone areas using satellite imagery and environmental data.
+AeroVision is a Machine Learning–based system that predicts and classifies aircraft using trained AI models.
+It utilizes real-world aircraft datasets, processes them through preprocessing and feature engineering pipelines, and employs ML algorithms to provide accurate predictions.
+
+The goal of AeroVision is to aid aerospace analysts, defense engineers, and aviation authorities in identifying aircraft efficiently using AI and automation.
 
 ---
 
 ## 🚀 Tech Stack
-- **Frontend:** React, Tailwind CSS  
-- **Backend:** Flask (Python)  
-- **Machine Learning:** Numpy pandas   
-- **Tools:** Jupyter Notebook, Git, Postman
+- Frontend: React, Tailwind CSS  
+- Backend: Flask (Python)  
+- Machine Learning: Numpy, pandas, CNN, Open CV 
+- Tools:Jupyter Notebook, Git, Postman
 
+Work Flow of the Project -
+Data Collection:
+Aircraft images, telemetry, or specification datasets (CSV, image sets, etc.)
+
+Data Preprocessing:
+
+Noise removal and normalization
+
+Feature selection and encoding
+
+Train-test split and augmentation
+
+Model Training:
+Implemented models include:
+
+🧠 CNN / ResNet for image-based classification
+
+🔍 Hybrid Ensemble Models for improved accuracy
+
+Evaluation Metrics:
+
+Accuracy
+
+Precision, Recall, F1-score
+
+Confusion Matrix visualization
+
+Prediction Phase:
+The Flask backend hosts the trained model, accepts uploaded data or images, and returns the aircraft type prediction.
 ---
 
 ## 📸 Screenshots
@@ -35,6 +67,7 @@ Result Page
 cd backend
 pip install -r requirements.txt
 python app.py
+
 
 
 
